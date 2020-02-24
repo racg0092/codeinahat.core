@@ -1,6 +1,6 @@
 {
   "name": "@codeinahat/core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JS Library Core elements",
   "main": "index.js",
   "scripts": {
