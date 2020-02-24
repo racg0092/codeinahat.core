@@ -11,9 +11,12 @@ const group = [
 ]
 
 
-const g = group.FirstOrDefault(p => p.name === "Tito").role;
+const g = group.FirstOrDefault();
+
+
 
 const g2 = group.Distinct();
 
 
+console.log(g);
 console.log(g2);
