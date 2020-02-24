@@ -1,0 +1,16 @@
+{
+  "name": "@codeinahat/core",
+  "version": "1.0.0",
+  "description": "JS Library Core elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Library",
+    "JS",
+    "Module"
+  ],
+  "author": "Richard Chapman Gomez",
+  "license": "MIT"
+}
