@@ -1,8 +1,8 @@
 const core = require('./core');
 
-let test = ['a','b','c'];
+let test = ['apple','manzana','zee'];
 
 
-let first = test.FirstOrDefault(i => i === 'c');
+let first = test.Where(i => i.indexOf('z') > -1);
 
 console.log(first);

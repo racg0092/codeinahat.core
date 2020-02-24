@@ -11,4 +11,17 @@ module.exports = function(){
         }
          return null;
     }
+
+    Array.prototype.Where = function(action = null) {
+        if(action !== null) {
+            let matching = [];
+            this.map((v,i)=>{
+                if(action(v)) {
+                    matching.push(v)
+                }
+            })
+            return matching;
+        }
+        return null;
+    }
 }
