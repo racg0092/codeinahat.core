@@ -13,5 +13,6 @@
     "Module"
   ],
   "author": "Richard Chapman Gomez",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }

@@ -1,1 +1,1 @@
-const core = require('./core');
+require('./dist');
