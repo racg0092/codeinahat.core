@@ -14,5 +14,8 @@
   ],
   "author": "Richard Chapman Gomez",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
