@@ -6,5 +6,4 @@ const list2 = [
     {name: 'Yo', age: 28}
 ]
 
-console.log(result);
 

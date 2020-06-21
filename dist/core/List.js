@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 function List() {
     // returns the first Item that mathces the criteria of null
     Array.prototype.FirstOrDefault = function (action) {

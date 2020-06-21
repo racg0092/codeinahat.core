@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 function Strings() {
     String.prototype.IsNullOrEmpty = function () {
         return this === null || this.match(/^ *$/) !== null;
@@ -7,6 +7,9 @@ function Strings() {
     String.prototype.IsEmail = function () {
         var expresssion = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         return expresssion.test(this);
+    };
+    String.prototype.ReplaceAll = function (search, replacement) {
+        return this.split(search).join(replacement);
     };
 }
 exports.Strings = Strings;

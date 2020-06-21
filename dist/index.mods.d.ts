@@ -31,6 +31,11 @@ declare global {
          * Checks if the string is null or empty.
          */
         IsNullOrEmpty(): boolean;
-        Count: number;
+        /**
+         * replaces all the characters selected for a different value
+         * @param search value you want to find in the string
+         * @param replacement value to replace it by
+         */
+        ReplaceAll(search: string, replacement: string): string;
     }
 }
