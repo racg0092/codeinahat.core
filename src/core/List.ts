@@ -12,6 +12,19 @@ export function List(): void {
        }
         return null;
    }
+
+   Array.prototype.LastOrDefault = function (action = null) {
+       for(let i of this){
+           if (action == null) {
+               this[this.length-1];
+            } else {
+                const inverse = this.reverse();
+                for(let i of inverse) {
+                    if(action(i)) return i;
+                }
+            }
+       }
+   }
    
    // returns a list that matches the criterias
    Array.prototype.Where = function(action = null) {
